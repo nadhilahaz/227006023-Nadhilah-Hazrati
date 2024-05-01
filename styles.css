@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #c1c0e0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #b9b8be;
   margin: 0;
   padding: 0;
 }
@@ -9,9 +9,9 @@ body {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  border: 1px solid #3d597d;
+  border: 1px solid #869fbe;
   border-radius: 5px;
-  background-color: #5d58de;
+  background-color: #908fac;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -21,6 +21,19 @@ h2 {
 
 .form-group {
   margin-bottom: 20px;
+
+
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+  /* Menambah jarak atas */
+}
+
+.button-group button {
+  margin: 0 10px;
+  /* Penyesuaian margin agar simetris */
 }
 
 label {
@@ -52,9 +65,15 @@ button {
   transition: background-color 0.3s ease;
 }
 
+
 button:hover {
   background-color: #0056b3;
 }
+
+.reset-button {
+  text-align: center;
+}
+
 
 #outputText {
   resize: none;
