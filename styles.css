@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c1c0e0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #3d597d;
+  border-radius: 5px;
+  background-color: #5d58de;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+textarea,
+input[type="password"] {
+  width: calc(100% - 10px);
+  /* Penyesuaian lebar textarea agar simetris */
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  /* Penyesuaian margin agar simetris */
+  border: none;
+  border-radius: 5px;
+  background-color: #16406c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#outputText {
+  resize: none;
+}
