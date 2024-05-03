@@ -79,5 +79,5 @@ button:hover {
 #resetButton {
   display: block;
   margin: 0 auto;
-
+  /* Membuat tombol reset berada di tengah */
 }
